@@ -1,5 +1,14 @@
 # Bonafide Bangers
 
+Bonafide Bangers is the latest and greatest in not having a shithouse playlist of tunes when hanging out with friends and/or family.
+
+## How to play
+
+1. Try and play the best banger you can muster.
+2. Throw down a point for songs you quantify as Bonafide Bangers.
+3. Tally all the points opn a scoreboard.
+4. That's it.
+
 ## Rules
 
 1. **Go your own way** Play the music as loud as you want (within reason)
