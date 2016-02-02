@@ -1,0 +1,29 @@
+.rules {
+	counter-reset: section;
+	list-style-type: none;
+
+	li {
+		position: relative;
+		margin-left: 0;
+		padding-left: 5rem;
+
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			padding: 0.5rem;
+			width: 3rem;
+			height: @width;
+			counter-increment: section;
+			content: counters(section, '.');
+			font-weight: $bold-font-weight;
+			font-size: 2rem;
+			line-height: 1;
+			text-align: center;
+			color: $white;
+			background: $black;
+			border-radius: 50%;
+		}
+	}
+}
