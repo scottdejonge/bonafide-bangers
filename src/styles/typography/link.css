@@ -1,0 +1,32 @@
+/*
+ * Definitions
+ */
+
+$link-color: $primary;
+$link-text-decoration: none;
+
+$link-hover-color: $dark;
+$link-hover-decoration: underline;
+
+$link-visted-color: $secondary;
+
+
+/*
+ * Link
+ */
+
+a:not([class]) {
+	color: $link-color;
+	text-decoration: $link-text-decoration;
+	transition: color $transition-fast ease-in-out;
+	
+	&:hover,
+	&:focus {
+		color: $link-hover-color;
+		text-decoration: $link-hover-decoration;
+	}
+
+	&:visited {
+		color: $link-visted-color;
+	}
+}

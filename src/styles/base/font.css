@@ -20,21 +20,21 @@ $bold-font-family: $sans-serif-font-family;
  * Generic Font Weights
  */
 
-$thin-font-weight: 300;
-$regular-font-weight: 400;
-$medium-font-weight: 500;
-$semibold-font-weight: 600;
-$bold-font-weight: 700;
+$thin-font-weight: 400;
+$regular-font-weight: 500;
+$medium-font-weight: 600;
+$semibold-font-weight: 700;
+$bold-font-weight: 800;
 
 /*
  * Font Sizes
  */
 
-$font-size-xlarge: 1.8rem;
-$font-size-large: 1.6rem;
-$font-size-medium: 1.4rem;
-$font-size-small: 1.2rem;
-$font-size-xsmall: 1rem;
+$font-size-xlarge: 2.0rem;
+$font-size-large: 1.8rem;
+$font-size-medium: 1.6rem;
+$font-size-small: 1.4rem;
+$font-size-xsmall: 1.2rem;
 
 /*
  * Line height

@@ -1,13 +1,11 @@
 /*
- * Definitions
- */
-
-$root-size: 10px;
-
-/*
  * Root Size
  */
 
 :root {
-	font-size: $root-size;
+	font-size: 10px;
+
+	@media (max-width: 640px) {
+		font-size: 8px;
+	}
 }

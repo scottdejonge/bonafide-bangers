@@ -3,6 +3,7 @@
  */
 
 @import 'base/root';
+@import 'base/global';
 @import 'base/base';
 @import 'base/font';
 @import 'base/color';
@@ -15,18 +16,24 @@
 @import 'typography/heading';
 @import 'typography/paragraph';
 @import 'typography/list';
+@import 'typography/link';
+
 
 /*
- * Styles
+ * Components
  */
 
-body {
-	background: $light-grey;
+@import 'components/panel';
+@import 'components/slab';
+@import 'components/hashtag';
+
+
+::selection {
+	color: $white;
+	background: $primary;
 }
 
-main {
-	margin: 0 auto;
-	padding: 2rem;
-	max-width: 600px;
-	background: $white;
+::-moz-selection {
+	color: $white;
+	background: $primary;
 }

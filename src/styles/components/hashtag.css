@@ -1,0 +1,21 @@
+/*
+ * Hashtag
+ */
+
+ .hashtag {
+	display: block;
+	padding: 1rem;
+	font-weight: $bold-font-weight;
+	font-size: 3.6rem;
+	color: $white;
+	text-align: center;
+	background: $primary;
+	text-decoration: none;
+	border: 2px solid $black;
+	box-shadow: 5px 5px 0px $black;
+
+	&:hover,
+	&:focus {
+		background: $secondary;
+	}
+}

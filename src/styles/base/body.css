@@ -2,12 +2,13 @@
  * Definitions
  */
 
+$body-padding: 1.5rem;
 $body-font-family: $regular-font-family;
 $body-font-weight: $regular-font-weight; 
-$body-color: $dark;
+$body-color: $black;
 $body-line-height: $line-height-medium;
 $body-letter-spacing: 0.03rem;
-$body-background: $white;
+$body-background: $tertiary;
 
 
 /*
@@ -15,6 +16,7 @@ $body-background: $white;
  */
 
 body {
+	padding: $body-padding;
 	font-family: $body-font-family;
 	font-weight: $body-font-weight;
 	color: $body-color;
