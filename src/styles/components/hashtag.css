@@ -7,15 +7,17 @@
 	padding: 1rem;
 	font-weight: $bold-font-weight;
 	font-size: 3.6rem;
-	color: $white;
+	color: $black;
 	text-align: center;
 	background: $primary;
 	text-decoration: none;
-	border: 2px solid $black;
+	border: 0.4rem solid $black;
 	box-shadow: 5px 5px 0px $black;
+	transition: all $speed-fast ease-in-out;
 
 	&:hover,
 	&:focus {
+		color: $white;
 		background: $secondary;
 	}
 }

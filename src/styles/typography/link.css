@@ -18,7 +18,7 @@ $link-visted-color: $secondary;
 a:not([class]) {
 	color: $link-color;
 	text-decoration: $link-text-decoration;
-	transition: color $transition-fast ease-in-out;
+	transition: color $speed-fast ease-in-out;
 	
 	&:hover,
 	&:focus {
