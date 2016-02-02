@@ -1,5 +1,32 @@
-@import 'reset';
+/*
+ * Base
+ */
+
+@import 'base/root';
+@import 'base/base';
+@import 'base/font';
+@import 'base/color';
+@import 'base/body';
+
+/*
+ * Typography
+ */
+
+@import 'typography/heading';
+@import 'typography/paragraph';
+@import 'typography/list';
+
+/*
+ * Styles
+ */
 
 body {
-	background: #EEE;
+	background: $light-grey;
+}
+
+main {
+	margin: 0 auto;
+	padding: 2rem;
+	max-width: 600px;
+	background: $white;
 }

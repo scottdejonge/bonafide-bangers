@@ -1,0 +1,13 @@
+/*
+ * Definitions
+ */
+
+$root-size: 10px;
+
+/*
+ * Root Size
+ */
+
+:root {
+	font-size: $root-size;
+}
