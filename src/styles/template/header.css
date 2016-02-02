@@ -1,0 +1,13 @@
+.header {
+	margin: 0 auto;
+	padding: 8rem 1.5rem;
+	text-align: center;
+	background: $primary;
+	border-bottom: 0.4rem solid $black;
+
+	img {
+		width: 100%;
+		max-width: 1280px;
+		height: auto;
+	}
+}

@@ -19,6 +19,13 @@
 @import 'typography/link';
 
 /*
+ * Template
+ */
+
+@import 'template/header';
+@import 'template/content';
+
+/*
  * Components
  */
 
