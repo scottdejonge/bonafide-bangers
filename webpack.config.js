@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
 var precss = require('precss');
 var postcssImport = require('postcss-import');
@@ -28,5 +29,10 @@ module.exports = {
 			}),
 			precss
 		];
-	}
+	},
+	devtool: 'source-map',
+	devServer: {
+		contentBase: './dist',
+		hot: true
+	},
 };
