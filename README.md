@@ -13,3 +13,17 @@
 5. **You sing, you vote** Always, capeesh
 
 6. **Browser block** You can only browse for a song whilst the person before you is playing a song
+
+## FAQs
+
+### Is Bonafide Bangers a drinking game?
+
+Everything can be a drinking game. But there are no drinking rules, it's not like some seppo bullshit.
+
+### Do the points matter?
+
+Nothing really matters.
+
+### How do you keep score?
+
+Pen and paper, sharpie and beer carton, or some newfangled score app, 'sall good.
