@@ -6,14 +6,14 @@
 	margin: 5rem auto;
 	max-width: 600px;
 	background: $white;
-	border: 2px solid $black;
+	border: 0.4rem solid $black;
 	box-shadow: 5px 5px 0px $black;
 }
 
 .panel-header {
 	padding: 2rem;
 	background: $secondary;
-	border-bottom: 2px solid $black;
+	border-bottom: 0.4rem solid $black;
 }
 
 .panel-title {
