@@ -2,9 +2,10 @@ var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
 var precss = require('precss');
 var postcssImport = require('postcss-import');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-	entry: "./src/main.js",
+	entry: './src/main.js',
 	output: {
 		path: __dirname + '/dist',
 		publicPath: '/',
@@ -14,7 +15,7 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.css$/,
-				loader: "style-loader!css-loader!postcss-loader"
+				loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader')
 			}
 		]
 	},
@@ -35,4 +36,9 @@ module.exports = {
 		contentBase: './dist',
 		hot: true
 	},
+	plugins: [
+		new ExtractTextPlugin('bundle.css', {
+			allChunks: true
+		})
+	]
 };
