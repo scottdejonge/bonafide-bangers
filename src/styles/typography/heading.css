@@ -2,7 +2,7 @@
  * Definitions
  */
 
-$headings-margin: 0 0 0.5em 0;
+$headings-margin: 0 0 1em 0;
 $headings-font-family: $medium-font-family;
 $headings-font-weight: $medium-font-weight;
 $headings-color: $body-color;
@@ -10,8 +10,8 @@ $headings-line-height: $line-height-small;
 
 $h1-font-size: 2.8rem;
 $h2-font-size: 2.2rem;
-$h3-font-size: 1.8rem;
-$h4-font-size: 1.6rem;
+$h3-font-size: 1.6rem;
+$h4-font-size: 1.5rem;
 $h5-font-size: 1.4rem;
 $h6-font-size: 1.2rem;
 

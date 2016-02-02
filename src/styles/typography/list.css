@@ -9,7 +9,7 @@ $list-padding: 0;
  * Lists Item
  */
 
-$list-item-margin: 1rem 0 1rem 2rem;
+$list-item-margin: 2rem 0 2rem 2rem;
 $list-item-font-family: $paragraph-font-family;
 $list-item-font-weight: $paragraph-font-weight;
 $list-item-font-size: $paragraph-font-size;
