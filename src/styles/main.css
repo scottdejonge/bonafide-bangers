@@ -18,7 +18,6 @@
 @import 'typography/list';
 @import 'typography/link';
 
-
 /*
  * Components
  */
@@ -27,13 +26,3 @@
 @import 'components/slab';
 @import 'components/hashtag';
 @import 'components/rules';
-
-::selection {
-	color: $white;
-	background: $primary;
-}
-
-::-moz-selection {
-	color: $white;
-	background: $primary;
-}
