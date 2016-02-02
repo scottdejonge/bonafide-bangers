@@ -24,6 +24,7 @@
     "webpack": "^1.12.2"
   },
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "npm run watch",
+    "watch": "webpack -d --watch"
   }
 }
