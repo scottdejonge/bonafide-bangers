@@ -1,11 +1,9 @@
 var autoprefixer = require('autoprefixer');
 var precss = require('precss');
-var atImport = require('postcss-import');
-
-require('./src/styles/main.css');
+var postcssImport = require('postcss-import');
 
 module.exports = {
-	entry: "./src/entry.js",
+	entry: "./src/main.js",
 	output: {
 		path: __dirname + '/dist',
 		publicPath: '/',
@@ -14,7 +12,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{
-				test:   /\.css$/,
+				test: /\.css$/,
 				loader: "style-loader!css-loader!postcss-loader"
 			}
 		]
@@ -24,11 +22,11 @@ module.exports = {
 			autoprefixer({
 				browsers: ['last 2 versions']
 			}),
-			atImport({
+			postcssImport({
 				path: './src/styles/*.css',
 				addDependencyTo: webpack
 			}),
-			precss,
+			precss
 		];
 	}
 };
