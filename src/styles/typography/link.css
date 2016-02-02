@@ -2,7 +2,7 @@
  * Definitions
  */
 
-$link-color: $primary;
+$link-color: $tertiary;
 $link-text-decoration: none;
 
 $link-hover-color: $dark;
