@@ -17,7 +17,7 @@ var leftRec, rightRec, leftAngle, rightAngle;
 var leftEyePos = {x: 0, y: 0};
 var rightEyePos = {x: 0, y: 0};
 
-document.addEventListener('mousemove', function(event) {
+window.addEventListener('mousemove', function(event) {
 	mouseX = event.clientX;
 	mouseY = event.clientY;
 });
