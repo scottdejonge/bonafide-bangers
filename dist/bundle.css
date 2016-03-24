@@ -697,10 +697,14 @@ a:not([class]):visited {
 	border-bottom: 0.4rem solid #000000;
 }
 
-.header img {
+.header img, .header svg {
 	width: 100%;
 	max-width: 960px;
 	height: auto;
+}
+
+.header #left_eye, .header #right_eye {
+	transform-origin: 50% 50%;
 }
 
 .content {
