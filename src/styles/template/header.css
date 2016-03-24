@@ -5,9 +5,13 @@
 	background: $primary;
 	border-bottom: 0.4rem solid $black;
 
-	img {
+	img, svg {
 		width: 100%;
 		max-width: 1280px;
 		height: auto;
+	}
+
+	#left_eye, #right_eye {
+		transform-origin: 50% 50%;
 	}
 }
